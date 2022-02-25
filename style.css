@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/*Убрать полосу прокрутки для всей страницы*/
+::-webkit-scrollbar {
+  width: 0;
+}
+
+body {
+  background-color: rgb(255, 240, 213);
+  font-family: 'Roboto', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.cont {
+  margin: 30px;
+}
+
+.head {
+  width: 100%;
+  border-radius: 7px;
+  box-shadow: 7px 6px 20px rgba(0, 0, 0, 0.514);
+  margin-bottom: 20px;
+}
+
+.info {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.card {
+  background-color: #2ecc6b;
+  padding: 10px;
+  border-radius: 5px;
+  width: 50%;
+  margin-right: 10px;
+  color: white;
+}
+
+.card:last-child {
+  margin: 0px;
+}
+
+h2 {
+  margin: 15px 0px;
+}
+
+.hist {
+  width: 50%;
+  background-color: #a2cc2e;
+  padding: 15px;
+  border-radius: 10px;
+  color: white;
+  text-align: center;
+}
+
+.hist a {
+  color: white;
+  font-style: italic;
+  text-decoration: none;
+}
+
+.mh {
+  background-color: rgb(214, 212, 212);
+  padding: 20px 30px;
+}
+
+.ch {
+  background-color: rgb(128, 128, 128);
+  padding: 10px;
+  border-radius: 10px;
+  width: 230px;
+  display: inline-flex;
+  margin: 3px 0px;
+}
+
+.name {
+  margin: auto 20px auto;
+}
+
+.name a {
+  color: rgb(20, 20, 20);
+  text-decoration: none;
+  font-size: large;
+}
+
+.ava img {
+  border-radius: 10px;
+}
+
+#scary {
+  background-color: #cc4e2e;
+  color: rgb(44, 44, 44);
+  width: 50%;
+  border-radius: 10px;
+  margin-left: 10px;
+  text-align: center;
+}
+
+.foot {
+  display: flex;
+}
